@@ -1,0 +1,133 @@
+body {
+  background-color: #F7E4D4;
+}
+
+body .container {
+  position: fixed;
+  width: 100%;
+  max-width: 480px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 520px) {
+  body .container {
+    width: calc(100% - 40px);
+  }
+}
+
+body .container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #467745;
+}
+
+@media (max-width: 520px) {
+  body .container h1 {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+
+body .container form input[type=text] {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: 64px;
+  padding-left: 20px;
+  margin: 0 auto 25px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #fff;
+  color: #467745;
+}
+
+body .container form ::-webkit-input-placeholder {
+  opacity: 0.6;
+  color: #467745;
+}
+
+body .container form :-ms-input-placeholder {
+  opacity: 0.6;
+  color: #467745;
+}
+
+body .container form ::-ms-input-placeholder {
+  opacity: 0.6;
+  color: #467745;
+}
+
+body .container form ::placeholder {
+  opacity: 0.6;
+  color: #467745;
+}
+
+body .container form textarea {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: 120px;
+  padding: 20px;
+  margin: 0 auto 25px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #fff;
+  color: #467745;
+}
+
+body .container form input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+}
+
+body .container form label {
+  position: absolute;
+  width: 480px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body .container form label a {
+  text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+  body .container form label {
+    bottom: -5px;
+    width: 300px;
+  }
+}
+
+body .container button {
+  position: absolute;
+  width: 100%;
+  max-width: 280px;
+  height: 80px;
+  top: 420px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 40px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: #467745;
+  color: #F7E4D4;
+}
+/*# sourceMappingURL=style.css.map */

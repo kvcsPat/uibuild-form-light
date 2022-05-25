@@ -92,6 +92,16 @@ body .container form input[type=checkbox] {
   background-color: #fff;
 }
 
+body .container form input[type=checkbox]:checked {
+  background-color: #467745;
+}
+
+body .container form input[type=checkbox]:checked::before {
+  content: "\2714";
+  color: #fff;
+  margin-left: 5px;
+}
+
 body .container form label {
   position: absolute;
   width: 480px;

@@ -82,6 +82,16 @@ body {
                 margin-right: 20px;
 
                 background-color: #fff;
+
+                &:checked {
+                    background-color: #467745;
+                }
+
+                &:checked::before {
+                    content: "\2714";
+                    color: #fff;
+                    margin-left: 5px;
+                }
             }
 
             label {
